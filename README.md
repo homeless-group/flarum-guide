@@ -193,6 +193,8 @@ docker exec -ti flarum extension list
 
 # install an extension
 docker exec -ti flarum extension require some/extension
+# example
+docker exec -ti flarum extension require flagrow/flarum-ext-analytics
 
 # remove an extension
 docker exec -ti flarum extension remove some/extension
