@@ -185,6 +185,19 @@ server {
 
 ```
 
+- Manage Extensions
+
+```bash
+# list all extensions
+docker exec -ti flarum extension list
+
+# install an extension
+docker exec -ti flarum extension require some/extension
+
+# remove an extension
+docker exec -ti flarum extension remove some/extension
+
+```
 ### References
 
 [docker-flarum](https://github.com/mondediefr/docker-flarum)
